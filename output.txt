@@ -1,0 +1,19 @@
+curl http://localhost:8080/v1/dev-config.yml
+welcome_message: "Hello from Dockerized Flask App"
+
+another_config: "foo bar"
+
+
+
+curl http://localhost:8080/v1/test-config.yml
+welcome_message: "Hello from Dockerized Flask App Test"
+
+
+
+curl http://127.0.0.1:8080/v1/dev-config.json
+{"welcome_message": "Hello from Dockerized Flask App", "another_config": "foo bar"}
+
+
+
+curl http://localhost:8080/v1/test-config.json
+{"welcome_message": "Hello from Dockerized Flask App Test"}

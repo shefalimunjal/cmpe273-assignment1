@@ -1,1 +1,6 @@
 flask
+gitpython
+pyyaml
+ruamel.yaml
+PyGithub
+
